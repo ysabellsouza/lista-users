@@ -1,16 +1,23 @@
-# React + Vite
+#Atividade: Lista de Usuários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido em React + Vite para exibir cartões de usuários consumindo dados de uma API externa.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Demonstração da Tela**
 
-## React Compiler
+<img width="462" height="852" alt="printcard" src="https://github.com/user-attachments/assets/85a739b3-b941-48b1-b1b4-894a523d8253" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*Legenda: Interface da aplicação exibindo os cartões de usuários gerados dinamicamente.*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Tecnologias Utilizadas**
+
+* **React / Vite** - Construção e inicialização do projeto
+* **JavaScript (Fetch API & `.map()`)** - Consumo da API `dummyjson` e renderização em lista
+* **CSS3** - Estilização dos cartões e layout
+* **Git & GitHub** - Controle de versão e hospedagem
+
+---
+
